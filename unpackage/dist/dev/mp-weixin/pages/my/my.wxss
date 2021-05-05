@@ -1,0 +1,32 @@
+.myface {
+  width: 88px;
+  height: 88px;
+  border: 5px solid #F1F2F3;
+  border-radius: 100%;
+  margin: 15px auto;
+  text-align: center;
+}
+.Navigation {
+  margin-top: 20%;
+  font-size: 20px;
+  margin-bottom: 0;
+  background: #fff;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 20px;
+}
+.Navigation .garce-items {
+  padding: 5% 5% 5% 5%;
+  text-align: center;
+}
+.btn-row {
+  margin-top: 40%;
+}
+.btn-row uni-button[type=primary] {
+  margin: 0 4%;
+  background-image: -webkit-linear-gradient(bottom, #66b7f9, #1c82d4);
+  background-image: linear-gradient(to top, #66b7f9, #1c82d4);
+}
+

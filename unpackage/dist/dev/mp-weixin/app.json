@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/roadata/roadata",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "北斗芯路",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "当前设备",
+        "iconPath": "static/设备-a.png",
+        "selectedIconPath": "static/设备.png"
+      },
+      {
+        "pagePath": "pages/roadata/roadata",
+        "text": "路面数据",
+        "iconPath": "static/数据-a.png",
+        "selectedIconPath": "static/数据.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "用户",
+        "iconPath": "static/用户-a.png",
+        "selectedIconPath": "static/用户.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
