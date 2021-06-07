@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "u-avatar": "/uview-ui/components/u-avatar/u-avatar",
+    "u-line": "/uview-ui/components/u-line/u-line",
+    "u-button": "/uview-ui/components/u-button/u-button"
+  },
+  "component": true
+}

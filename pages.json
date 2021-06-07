@@ -11,6 +11,15 @@
 				"navigationBarTextStyle": "white"
 			}
 		}
+        ,{
+            "path" : "components/common/show-navigation-bar",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

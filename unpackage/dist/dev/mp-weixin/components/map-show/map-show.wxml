@@ -1,0 +1,1 @@
+<view><view class="mapStyle"><map style="{{'height:'+(nowMapIndex?nintyPercentScreenHeight:seventyPercentScreenHeight)+';'+('width:'+('750rpx')+';')}}" scale="{{scale}}" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{covers}}" polyline="{{polyline}}"></map></view></view>
