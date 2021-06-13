@@ -12,7 +12,24 @@
 			}
 		}
         ,{
-            "path" : "components/common/show-navigation-bar",
+            "path" : "components/public-common/show-navigation-bar-index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/planeness/planeness",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom" ,// 隐藏系统导航栏
+                "navigationBarTextStyle": "white"
+            }
+            
+        },{
+            "path" : "components/public-common/show-navigation-bar",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",

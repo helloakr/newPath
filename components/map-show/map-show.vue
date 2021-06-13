@@ -3,7 +3,7 @@
 	<view>
 		<view class="mapStyle">
 			<map 
-				:style="{height: nowMapIndex ? nintyPercentScreenHeight : seventyPercentScreenHeight,width:'750rpx'}"
+				:style="{height: nowMapIndex ? nintyPercentScreenHeight : seventyPercentScreenHeight,width:'100%'}"
 				:scale="scale"
 				:latitude="latitude" 
 				:longitude="longitude" 

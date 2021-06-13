@@ -2,6 +2,7 @@
 	<view>
 		<show-navigation-bar><!-- 导航栏 --></show-navigation-bar>
 		<map-show><!-- 地图 --></map-show>
+		
 		<!-- 九宫格图表 -->
 		<u-grid :col="2" :border="true">
 				<u-grid-item bg-color="#2cb5e8">
@@ -13,7 +14,7 @@
 					<view class="grid-text">摩擦系数</view>
 				</u-grid-item>
 				<u-grid-item bg-color="#2cb5e8">
-					<u-icon name="../../static/Icon/pingzhengdu.png" :size="50"></u-icon>
+					<u-icon name="../../static/Icon/pingzhengdu.png" :size="50"  @click="gotoPlaneness()"></u-icon>
 					<view class="grid-text">平整度</view>
 				</u-grid-item>
 				<u-grid-item bg-color="#2cb5e8">
@@ -22,12 +23,11 @@
 				</u-grid-item>
 			</u-grid>
 	</view>
-	
 </template>
 
 <script>
 	import mapShow from "../../components/map-show/map-show.vue"
-	import showNavigationBar from"../../components/common/show-navigation-bar.vue"
+	import showNavigationBar from"../../components/public-common/show-navigation-bar-index.vue"
 	export default {
 		components:{
 			showNavigationBar,
@@ -38,12 +38,15 @@
 			};
 		},
 		methods:{
+			//跳转到平整度界面
+			gotoPlaneness(){
+					uni.navigateTo({
+						url:"../../components/planeness/planeness",
+					fail(err) {
+						console.log(err);
+					}})
+			}
 		},
-		mounted:function(){
-			//setInterval(this.getPolyline,1000);
-		},
-		beforeDestroy:function(){
-		}
 	}
 </script>
 <style lang="scss">
@@ -52,7 +55,6 @@
 			margin-top: 4rpx;
 			color:#FFFFFF;
 	},
-	// 全局字体设置
 	body {
 		 font-family:"微软雅黑";font-weight:bold;
 	}
